@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rate Movies to the Tenth</h1>
+        <form id="ratingForm">
+            <div class="input-group">
+                <label for="viewerName">Viewer Name:</label>
+                <input type="text" id="viewerName" required>
+            </div>
+            <div class="input-group">
+                <label for="movieName">Movie Name:</label>
+                <input type="text" id="movieName" required>
+            </div>
+            <div class="input-group">
+                <label for="rating">Rating (0.1-5.0):</label>
+                <input type="number" id="rating" step="0.1" min="0" max="5" required>
+            </div>
+            <!-- New Custom Rating Input Field -->
+            <div class="input-group">
+                <label for="customRating">Write Your Review:</label>
+                <input type="text" id="customRating" placeholder="Type your rating here">
+            </div>
+            <button type="submit">Submit Rating</button>
+        </form>
+        <div id="ratingsDisplay">
+            <h2>Ratings</h2>
+        </div>
+    </div>
+
+    <!-- Include your custom script as a module -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

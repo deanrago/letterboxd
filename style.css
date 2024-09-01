@@ -1,0 +1,78 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Font style for the text */
+    background-color: #f4f4f4; /* Light grey background color */
+    color: #333; /* Dark grey text color */
+    text-align: center; /* Center-align text within the body */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+/* Main container styling */
+.container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: auto; /* Center the container horizontally */
+    background: white; /* White background color for the container */
+    padding: 20px; /* Padding inside the container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow effect around the container */
+}
+
+/* Main heading styling */
+h1 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Input group styling - applies to all input fields */
+.input-group {
+    margin-bottom: 15px; /* Add space below each input group */
+    text-align: left; /* Align text to the left within the input group */
+}
+
+/* Label styling - applies to all labels for input fields */
+label {
+    display: block; /* Make the label take up the full width */
+    margin-bottom: 5px; /* Add space below the label */
+}
+
+/* Input field styling - applies to text and number inputs */
+input[type="text"], input[type="number"] {
+    width: 100%; /* Make the input field take up the full width */
+    padding: 8px; /* Add padding inside the input field */
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    margin-bottom: 10px; /* Add space below the input field */
+}
+
+/* Submit button styling */
+button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #5cb85c; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove the default border */
+    cursor: pointer; /* Change the cursor to a pointer when hovering */
+    font-size: 16px; /* Set the font size of the button text */
+}
+
+/* Hover effect for the submit button */
+button:hover {
+    background-color: #4cae4c; /* Darker green when hovering */
+}
+
+/* Styling for the ratings display section */
+#ratingsDisplay {
+    margin-top: 30px; /* Add space above the ratings display */
+    text-align: left; /* Align text to the left within the ratings display */
+}
+
+/* Styling for the ratings section heading */
+#ratingsDisplay h2 {
+    margin-bottom: 15px; /* Add space below the heading */
+}
+
+/* Styling for each individual rating item */
+.rating-item {
+    background: #f9f9f9; /* Light grey background for each rating item */
+    padding: 10px; /* Padding inside each rating item */
+    border: 1px solid #ddd; /* Light grey border around each rating item */
+    margin-bottom: 10px; /* Add space below each rating item */
+    border-radius: 5px; /* Slightly rounded corners */
+}
